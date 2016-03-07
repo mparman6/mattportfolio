@@ -7,13 +7,15 @@ var PORT = process.env.PORT || 3000;
 app.use("/js", express.static("public/js"));
 app.use("/css", express.static("public/css"));
 app.use("/img", express.static("public/img"));
-app.use("/font", express.static("public/font"));
-app.use("/aud", express.static("public/audio"));
+
 
 app.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/views/index.html");
 });
 
+app.get("/portfolio", function(req, res) {
+  res.sendFile(process.cwd() + "/views/portfolio.html");
+});
 
 
 

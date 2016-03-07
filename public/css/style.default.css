@@ -7,6 +7,7 @@ BODY, HTML
 */
 body {
   font-weight: 400;
+  color: white;
 }
 html,
 body,
@@ -60,6 +61,7 @@ UNIVERSAL SECTION STYLES
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
+  background-color: #f2f2f2;
 }
 .section:before,
 .section:after {
@@ -1809,3 +1811,30 @@ a.list-group-item.active > .badge,
 .github {
   background-color: #444444;
 }
+
+#para {
+  font-family: 'Roboto Slab', serif;
+}
+
+#about {
+  background-color: #000d33;
+  color: #fff;
+  line-height: 200%;
+}
+
+#contact {
+  background-color: #000d33;
+  color: #fff;
+}
+
+#footer p.social {
+  margin-left: 50px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+
+
+
