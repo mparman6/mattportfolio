@@ -1,0 +1,22 @@
+{
+  "name": "mattportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mparman6/mattportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mparman6/mattportfolio/issues"
+  },
+  "homepage": "https://github.com/mparman6/mattportfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
