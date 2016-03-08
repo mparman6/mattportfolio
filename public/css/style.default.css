@@ -749,10 +749,10 @@ FOOTER
   line-height: 50px;
 }
 #footer p.social {
-  text-align: left;
+  text-align: center;
 }
 #footer p.social a {
-  margin-left: 10px;
+  margin-left: 0px;
   color: #fff;
   display: inline-block;
   width: 50px;
@@ -786,7 +786,7 @@ FOOTER
 }
 #footer p {
   margin: 0;
-  text-align: right;
+  text-align: center;
   color: #eeeeee;
   font-family: 'Roboto Slab', serif;
 }
@@ -1827,16 +1827,18 @@ a.list-group-item.active > .badge,
   color: #fff;
 }
 
-#footer p.social {
-  margin-left: 50px;
-}
+
 
 .img-responsive {
-  width: 80%;
+  width: 60%;
 }
 
 #logo {
   height: 100%;
+}
+
+.foot {
+  text-align: center;
 }
 
 
