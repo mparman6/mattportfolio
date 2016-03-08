@@ -174,7 +174,7 @@ INTRO
 }
 #intro .item {
   height: 100%;
-  background: url('../img/code.jpg') center center no-repeat;
+  background: url('../img/portback.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1832,7 +1832,11 @@ a.list-group-item.active > .badge,
 }
 
 .img-responsive {
-  width: 100%;
+  width: 80%;
+}
+
+#logo {
+  height: 100%;
 }
 
 
