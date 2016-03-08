@@ -128,9 +128,7 @@ _________________________________________________________ -->
 
                             <div id="para" class="col-sm-6 text-left" data-animate="fadeInUp">
 
-                                <p>Former golf instructor and salesperson, turned web developer. After discovering my passion for creating and coding, I attended the Rutgers Coding Bootcamp where I developed expertise in <strong>Javascript, HTML5, CSS3</strong>, JQuery, Node.js, Command Line, Git, among others.</p><br/>
-
-                                <p>The web is, without a doubt, the most efficient way to get information to a huge audience. It's the best way to find out what really matters to people, which is vital to businesses, non-profits, individuals, the world. I specialize in creating <strong>interactive, user-friendly applications</strong> to enhance customer experience. When customers are happy, they come back!</p>
+                                <p>Former golf instructor turned web developer. After discovering my passion for creating and coding, I developed my skills in <strong class="strong"> Javascript, HTML5, CSS3, JQuery, Node.js, Express and Handlebars, among others</strong>.<br/> Using<strong class="strong"> JavaScript</strong> on the front and back ends, I specialize in creating <strong class="strong">responsive, interactive applications</strong> that enhance user experience. When users are happy, they come back!</p>
                             </div>
 
                             <div class="col-sm-6" data-animate="fadeInUp">
@@ -208,21 +206,21 @@ _________________________________________________________ -->
                             <div class="icon"><i class="fa fa-code"></i>
                             </div>
                             <h3 class="heading">Coding</h3>
-                            <p>Passion for producing clean, standards-compliant code. Develop highly scalable web applications and web services using front and back end technologies.</p>
+                            <button id="button1" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm1">Learn More!</button>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-cogs"></i>
                             </div>
                             <h3 class="heading">Teamwork and Collaboration</h3>
-                            <q>"Two minds are better than one."</q>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm2">Learn More!</button>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-coffee"></i> 
                             </div>
                             <h3 class="heading">Hardworking / Client-Focused</h3>
-                            <q>It was character that got us out of bed, commitment that moved us into action, and discipline that enabled us to follow through.</q> <p style="text-align: center">- Zig Ziglar</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm3">Learn More!</button>
                         </div>
 
                     </div>
@@ -315,6 +313,30 @@ _________________________________________________________ -->
 
         <!-- *** CONTACT END *** -->
 
+        <!-- Modal -->
+<div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <p>Passion for producing clean, standards-compliant code. Develop highly scalable web applications and web services.</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <p>"Two minds are better than one."</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-sm3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <q>It was character that got us out of bed, commitment that moved us into action, and discipline that enabled us to follow through.</q> <p style="text-align: center">- Zig Ziglar</p>
+    </div>
+  </div>
+</div>
 
         <!-- *** FOOTER ***
 _________________________________________________________ -->
@@ -324,7 +346,7 @@ _________________________________________________________ -->
 
                 <div class="row">
                     <div class="col-sm-12">
-                        <img class="img-responsive" src="/img/matthewparman.png" alt="logo" id="logo">
+                        <img class="img-responsive" src="/img/matthewparman2.png" alt="logo" id="logo">
                     </div>
                 </div>
 
@@ -367,7 +389,7 @@ _________________________________________________________ -->
     <!-- #### JAVASCRIPT FILES ### -->
 
     <!-- js base -->
-    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!-- for demo purpose -->
@@ -399,6 +421,7 @@ _________________________________________________________ -->
     <!-- main js file -->
 
     <script src="js/front.js"></script>
+    <script src="js/popover.js"></script>
 
     
 
