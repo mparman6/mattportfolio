@@ -1856,7 +1856,14 @@ a.list-group-item.active > .badge,
   font-weight: bold;
 }
 
+@media (max-width: 379px) {
+  a {
+    width: 100%;
+  }
 
-
+  img {
+    width: 100%;
+  }
+}
 
 
