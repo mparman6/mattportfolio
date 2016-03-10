@@ -1866,4 +1866,9 @@ a.list-group-item.active > .badge,
   }
 }
 
+@media (max-width: 385px) {
+  .navbar-brand {
+    width: 150px;
+  }
+}
 
