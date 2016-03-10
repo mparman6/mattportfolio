@@ -1,0 +1,45 @@
+#stop {
+  background-color: none;
+}
+
+.page-scroll {
+  margin-top: 0px;
+  font-size: 25px;
+  color: black;
+}
+
+#email {
+  color: blue;
+}
+
+#mainNav {
+  background-color: #327AC7;
+}
+
+#about {
+  background-color: #6D7073;
+  padding-bottom: 50px;
+}
+
+#services {
+  background-color: #6D7073;
+  padding-bottom: 25px;
+}
+
+#contact  {
+  background-color: #6D7073;
+}
+
+#span {
+  padding-right: 25px;
+}
+
+#more {
+  width: 200px;
+}
+
+#background {
+  background-color: #ccccb3;
+  background: url("..public/img/dev.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
