@@ -173,8 +173,8 @@ INTRO
   height: 100%;
 }
 #intro .item {
-  height: 100%;
-  background: url('../img/mecode.png') center center no-repeat;
+  /*height: 100%;*/
+  background: url('../img/bricks.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1823,7 +1823,13 @@ a.list-group-item.active > .badge,
 }
 
 #contact {
-  background-color: #000d33;
+  /*height: 100%;*/
+  background: url('../img/bricks.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
   color: #fff;
 }
 
@@ -1874,4 +1880,8 @@ a.list-group-item.active > .badge,
 
 .modal-content {
   text-align: center;
+}
+
+#portfolio {
+  background-color: #000d33;
 }
