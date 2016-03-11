@@ -647,6 +647,7 @@ CONTACT
 .contact form input,
 .contact form textarea {
   margin-top: 20px;
+  background-color: #e6e6e6;
 }
 /*
 
@@ -1884,4 +1885,18 @@ a.list-group-item.active > .badge,
 
 #portfolio {
   background-color: #000d33;
+}
+
+#latest {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 100;
+  padding: 10px 0;
+  margin-bottom: 44px;
+  text-align: center;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #fff;
 }
