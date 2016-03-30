@@ -174,7 +174,7 @@ INTRO
 }
 #intro .item {
   /*height: 100%;*/
-  background: url('../img/bricks.jpg') center center no-repeat;
+  /*background: url('../img/bricks.jpg') center center no-repeat;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1824,13 +1824,7 @@ a.list-group-item.active > .badge,
 }
 
 #contact {
-  /*height: 100%;*/
-  background: url('../img/bricks.jpg') center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-backface-visibility: hidden;
+  background-color: #13836c;
   color: #fff;
 }
 
@@ -1899,4 +1893,12 @@ a.list-group-item.active > .badge,
   text-transform: uppercase;
   line-height: 1.2;
   color: #fff;
+}
+
+#intro {
+  background-color: #13836c;
+}
+
+#footer {
+  background: #13836c;
 }

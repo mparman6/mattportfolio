@@ -106,7 +106,40 @@ _________________________________________________________ -->
                                 <!-- <img src="/img/matthewparman.jpg" alt="logo" width="130"> -->
                             </div>
                             <h1 data-animate="fadeInDown">Welcome</h1>
-                            <h2 data-animate="slideInUp"></h2>
+                            <!-- *** FOOTER ***
+_________________________________________________________ -->
+
+        <div class="section" id="footer">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="#intro"><img class="img-responsive" src="/img/matthewparman2.png" alt="logo" id="logo"></a>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+
+                        <p class="social">
+                            <a href="https://github.com/mparman6" class="github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/in/mattparman
+" class="linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin-square"></i></a>
+                        </p>
+                    </div>
+                    <!-- /.6 --> 
+
+                </div>             
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** FOOTER END *** -->
                         </div>
                     </div>
                 </div>
@@ -287,50 +320,26 @@ _________________________________________________________ -->
 
                     <h2 class="title">Contact me</h2>
 
+                  <form role="form" id="contactForm">
                     <div class="row">
-
-                        <div class="col-md-8 col-md-offset-2">
-                            <form id="contact-form" method="post" action="contact.php">
-
-                                <div class="messages">
-
-                                </div>
-
-                                <div class="controls">
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="phone" class="form-control" placeholder="Your phone">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
-                                        </div>
-                                        <div class="col-md-12 text-center">
-                                            <input type="submit" class="btn btn-primary btn-lg" value="Send message">
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </form>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.12 -->
+            <div class="form-group col-sm-6">
+                <label for="name" class="h4">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
             </div>
-            <!-- /.container -->
+            <div class="form-group col-sm-6">
+                <label for="email" class="h4">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
         </div>
-        <!-- /.section -->
+        <div class="form-group">
+            <label for="message" class="h4 ">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" id="form-submit" class="btn btn-success btn-lg ">Submit</button>
+<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+                  </form>
+
+
 
         <!-- *** CONTACT END *** -->
 
@@ -359,48 +368,7 @@ _________________________________________________________ -->
   </div>
 </div>
 
-        <!-- *** FOOTER ***
-_________________________________________________________ -->
-
-        <div class="section" id="footer">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-sm-12">
-                        <a href="#intro"><img class="img-responsive" src="/img/matthewparman2.png" alt="logo" id="logo"></a>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-sm-12">
-
-                        <p class="social">
-                            <a href="https://github.com/mparman6" class="github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github-square"></i></a>
-                            <a href="https://www.linkedin.com/in/mattparman
-" class="linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin-square"></i></a>
-                        </p>
-                    </div>
-                    <!-- /.6 --> 
-
-                </div> 
-
-                <div class="row"> 
-
-                 <div class="col-sm-12 foot">
-                        <p>&copy; 2016 Matt Parman. All rights reserved.</p>
-                    </div>
-
-                </div>                 
-
-                </div>
-
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.section -->
-
-        <!-- *** FOOTER END *** -->
+        
 
 
 

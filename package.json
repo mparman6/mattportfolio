@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/mparman6/mattportfolio#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mailgun": "^0.5.0",
+    "mailgun-js": "^0.7.7",
+    "nodemailer": "^2.3.0",
+    "sendgrid": "^2.0.0"
   }
 }
